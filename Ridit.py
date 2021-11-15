@@ -151,8 +151,9 @@ class Ridit:
 
 def main():
     
+    # Read the dataset
     
-    df = pd.read_csv(r"C:\Users\ishan\Desktop\Fall\MATH4993\Project\Project_4\wiki4HE.csv") 
+    df = pd.read_csv('PATH') 
     
     df.replace('?',np.nan,inplace=True)
     
