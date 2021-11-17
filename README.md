@@ -1,7 +1,14 @@
 # Automating-Ridit-Analysis
 This is an example of how to automate Ridit Analysis for a dataset with large amount of questions and many item attributes, with the question response being on likert scale.
 
-For instance, this dataset is about the university faculty perceptions and practices of using Wikipedia as a teaching resource. The university faculties have many interesting attributes such as age, gender, years of expericence, their domain of expectrice, etc... . This survey also has many questions which makes the job of comprehensively analysing the data difficult. This repository is a simple illustration of how to go about automating this tedious task.
+For instance, this dataset is about the university faculty perceptions and practices of using Wikipedia as a teaching resource. The university faculties have many interesting attributes such as:
+
+- age 
+- gender 
+- years of expericence -
+- their domain of expectrice 
+
+etc... . This survey also has many questions which makes the job of comprehensively analysing the data difficult. This repository is a simple illustration of how to go about automating this tedious task.
 
 
 ## Data Source: 
