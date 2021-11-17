@@ -10,8 +10,7 @@ For instance, this dataset is about the university faculty perceptions and pract
 
 etc... . This survey also has many questions which makes the job of comprehensively analysing the data difficult. This repository is a simple illustration of how to go about automating this tedious task.
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\int_{1}^{2}x&space;dx=" target="_blank"><img src="https://latex.codecogs.com/emf.latex?
-
+https://latex.codecogs.com/emf.latex?%5Cint_%7B1%7D%5E%7B2%7Dx%20dx%3D
 ## Data Source: 
 
 Meseguer-Artola, Antoni & Aibar, Eduard & Lladós-Masllorens, Josep & Minguillón, Julià & Lerga, Maura. (2016). Factors that influence the teaching use of Wikipedia in Higher Education. Journal of the Association for Information Science and Technology. 67. 1224-1232. 10.1002/asi.23488. 
