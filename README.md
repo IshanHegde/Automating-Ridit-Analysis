@@ -5,7 +5,7 @@ For instance, this dataset is about the university faculty perceptions and pract
 
 - age 
 - gender 
-- years of expericence -
+- years of expericence
 - their domain of expectrice 
 
 etc... . This survey also has many questions which makes the job of comprehensively analysing the data difficult. This repository is a simple illustration of how to go about automating this tedious task.
