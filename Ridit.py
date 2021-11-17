@@ -16,7 +16,7 @@ from sklearn.preprocessing import KBinsDiscretizer
 from scipy import stats
 import scipy
 import sklearn
-
+import time
 # 
 
 pd.set_option('mode.chained_assignment', None)
@@ -144,16 +144,16 @@ class Ridit:
     
         for i in range(len(interesting)):
         
-            if [i][0]==attribute:
+            if interesting[i][0]==attribute:
                 output.append(interesting[i])
         return output
 
 
 def main():
-    
+    start = time.time()
     # Read the dataset
     
-    df = pd.read_csv('PATH') 
+    df = pd.read_csv(r"C:\Users\ishan\Desktop\Fall\MATH4993\Project\Project_4\wiki4HE.csv") 
     
     df.replace('?',np.nan,inplace=True)
     
@@ -216,14 +216,18 @@ def main():
     
     results = ridit.results(att_names)
     
+    
+    
     interesting = ridit.interesting(results,0.01)
     
-    ridit.search_by_question(interesting, 'PU1')
+    #print(interesting)
+    print(ridit.search_by_question(interesting, 'PU1'))
     
-    ridit.search_by_attribute(interesting,'DOMAIN')
+    #print(ridit.search_by_attribute(interesting,'AGE'))
     
-    print(interesting)
-
+    #print(interesting)
+    end = time.time()
+    print("Elapsed Time = %s" % (end - start))
 
 
 if __name__ =="__main__":
